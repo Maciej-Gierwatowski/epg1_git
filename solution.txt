@@ -1,0 +1,10 @@
+git checkout -b hw-s18188
+git checkout rebase-me
+git rebase hw-s18188
+git checkout hw-s18188
+git merge rebase-me
+git merge origin/merge-me
+git merge merge-me
+git add .
+git commit -m "merge to merge-me" 
+
